@@ -1,15 +1,20 @@
 @font-face {
     font-family: myFirstFont;
-    src: url(2.otf);
+    src: url(./fonts/2.otf);
   }
   @font-face {
       font-family: my;
-      src: url(3.otf);
+      src: url(./fonts/3.otf);
+  }
+  @font-face{
+      font-family: smal;
+      src: url(./fonts/1.otf)
   }
   .fixed{
     position:fixed;
     width: 319px;
-    height: 1080px;
+    height: 100vh;
+    overflow:auto;
     background-color:black;
     top:0;
     left:0;
@@ -19,7 +24,7 @@
    height:42px;
     color: white;
     font-family: my; 
-
+    cursor: pointer;
 }
 .container1{
     width: 259px;
@@ -28,8 +33,7 @@
     color:white;
     border-radius: 12px;
     margin:30px;
-    
-
+    cursor: pointer;
 }
 .img{
     width:24px;
@@ -46,19 +50,24 @@
     margin-left: 80px;
     font-size: x-large;
     font-family:myfirstfont;
+    cursor: pointer;
 }
 .container2{
-    width:91px;
-    height:24px;
-    color:white;
+    width: 80px;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    height: 21px;
+    cursor: pointer;
 }
+
 .img2{
     color:white;
     width:24px;
     height:24px;
     font-family:myfirstfont;
     margin-block-start: 40px;
-
+    cursor: pointer;
 }
 .container3{
     padding-bottom: 2px;
@@ -76,7 +85,12 @@
 }
 .container4{
     width:80px;
-    height:24px;
+    cursor: pointer;
+    display: flex;
+    height: 23px;
+}
+.img4{
+    border-radius: -10px;
 }
 .container5{
     width:98px;
@@ -85,40 +99,120 @@
     padding: 25px;
     padding-block-start: 20px;
     margin-inline-start: -28px;
+    cursor: pointer;
+    display: flex;
+    margin-top: 0px;
+    padding-top: 10px;
+    padding-bottom: 15px;
 }
 .following{
 font-family:my;
 font-size: 12px;
+cursor: pointer;
 }
 .sajon{
     font-family: myfirstfont;
-    
+    cursor: pointer;    
 }
 .img5{
     margin: 5px;
     margin-top: 10px;
     margin-left: -10px;
     margin-right: auto;
+    cursor: pointer;
 }
 .div{
     margin-left: -18px;
     padding: 3px;
     font-family:myfirstfont;
+    cursor: pointer;
 }
 .div1{
     margin:0px;
     margin-left: -15px;
     margin-top: 5px;
     font-family:myfirstfont;
-   
+    cursor: pointer;
 }
 .div2{
     font-family: myfirstfont;
     margin: 0px;
     margin-left: -19px;
+    cursor: pointer;
 }
 
  .loadmore{
-     margin-top: 30px;
-     margin-left: 40px;
+    margin-top: 18px;
+    margin-left: 140px;
+     cursor: pointer;
+}
+.image{
+    margin-left: 260px;
+    border-bottom-width: 50px;
+    width: 29px;
+    cursor: pointer;
+}
+.search{
+    margin-left: 400px;
+    border-radius:12px;
+    width:446px;
+    height:56px;
+    
+  
+   
+}
+.navlist{
+    display: inline;
+    color: black;
+    margin-left:900px;
+    width: 400px;
+    height: 400px;
+}
+ul {
+    display:inline;
+    list-style-type: none;
+    margin: 0px;
+    padding: 200px;
+}
+li {
+    display:inline;
+    float: left;
+}
+
+li a {
+    display: inline;
+    color:black;
+    padding: 0px;
+    text-decoration: none;
+  }
+  nav{
+    margin-left: 400px;
+    margin-top: 30px;
+    height: 18px
+  }
+ li>a{
+    margin-right: 10px;
+    font-family: smal;
+    font-size: 16px;
+    fill:#222222;
+    border:#707070;
+    text-shadow: #000000;
+ }
+.timeline{
+    margin-left: 1000px;
+    box-sizing: content-box;
+    width: 30%;
+    border: 0px solid white;
+    position: fixed;
+    top: 2px;
+    
+}
+span,button{
+    color:crimson;
+    font-family:smal;
+}
+button{
+    border-radius: 12px;
+    border-color: #FF2288;
+    
 }
